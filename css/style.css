@@ -13,22 +13,24 @@
       justify-content: center;
       align-items: center;
     background: linear-gradient(45deg, #2c3e50, #3a4452); 
+    overflow: hidden;
     }
 
     .calculator {
-      padding: 15px;
+      padding: 5px;
       box-shadow: 0 0 15px #000;
       border: 2px solid rgb(166, 114, 114);
       border-radius: 15px;
        background: linear-gradient(45deg, #2c3e50, #3a4452);
     }
 
+ 
     .display input {
       width: 360px;
       border: none;
       outline: none;
-      margin: 10px;
-      padding: 20px;
+      margin: 8px;
+      padding: 10px;
       background: transparent;
       color: #fff;
       font-size: 40px;
@@ -74,3 +76,25 @@
       background: orangered;
       font-weight: 900;
     }
+    .replacebtn{
+       width: 70px;
+      height: 70px;
+      margin: 10px;
+      background: transparent;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+      border: none;
+      border-radius: 17%;
+      box-shadow: 10px 10px 15px #000;
+      outline: 1px solid #313131;
+      outline-offset: 3px;
+      cursor: pointer;
+      text-decoration: none;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      transition: transform 0.1s ease;
+   
+    }
+      
